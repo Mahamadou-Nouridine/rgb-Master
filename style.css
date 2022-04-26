@@ -1,0 +1,78 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    #block1 {
+        background-color: rgb(41, 126, 126);
+    }
+
+    #block3 {
+        background-color: rgba(2, 24, 24, 0.459);
+        height: calc(100vh - 150px);
+        transition: all 1s ease;
+    }
+
+    #block21 {
+        width: 450px;
+    }
+
+    #guess {
+        margin-top: 15px;
+    }
+
+    #theRgb {
+        background-color: rgba(255, 255, 255, 0.514);
+        width: 400px;
+        margin: auto;
+        font-weight: 300;
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        font-size: 0.8rem;
+    }
+
+    #case1,
+    #case2,
+    #case3,
+    #case4,
+    #case5,
+    #case6 {
+        width: 150px;
+        height: 150px;
+        background-color: crimson;
+        border-radius: 30px;
+        margin: 5px;
+        cursor: pointer;
+        transition-duration: 800ms;
+        transition-timing-function: ease;
+    }
+
+    #colors {
+        max-width: 500px;
+        max-height: 500px;
+        margin-top: 30px;
+    }
+
+    .btn.disabled {
+        background-color: rgb(30, 110, 160);
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
